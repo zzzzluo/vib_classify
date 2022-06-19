@@ -1,0 +1,8 @@
+code文件夹中有代码
+graduate_project文件夹中存放数据、数据标注、权重、损失等
+对graduate_project/data2/metadata/vehicleclassification7.csv文件进行修改，可改变训练集和验证集
+对graduate_project/data2/metadata/vehicleclassification_test7.csv进行修改，可改变测试集
+data文件夹存放数据
+metrics文件夹记录训练过程中的损失
+best_model_weights存放在验证集上有最小损失的模型的权重
+把代码中所有路径中的"D:/"改成graduate_project文件夹所在的根目录
