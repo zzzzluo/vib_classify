@@ -1,0 +1,3 @@
+The two files in this folder are the model weights corresponding to the best test results of the two models described in the report.
+best_model_weights_2022_05_09_03_29_39_loss_0.01147463486995548 (1).pth: 1d cnn model best model weight
+best_model_weights_2022_06_02_00_57_03_loss_0.10634292396051544.pth: 2d cnn model best model weight
