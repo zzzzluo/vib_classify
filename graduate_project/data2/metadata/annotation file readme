@@ -1,0 +1,2 @@
+vehicleclassification7.csv records the file name, folder, category, etc. of the data required for the training set and validation set.
+vehicleclassification_test7.csv records the data file name, folder, category, etc. required by the test set.
