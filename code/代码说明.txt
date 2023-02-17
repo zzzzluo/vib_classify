@@ -1,10 +1,6 @@
-vibmodel2.py定义了2dCNN模型 代码中的名字是ModelTest2_4_Res
-vibmodel.py定义了1dCNN模型，代码中的名字是ModelTest4_plus
-vibdataset.py定义了训练1dCNN的数据集：VibrationDS2和测试1dCNN的数据集VibrationDS
-vibdataset2.py定义了训练2dCNN的数据集：VibrationDS2和测试2dCNN的数据集VibrationDS
-vibtrain.py定义了训练函数
-vibpredict.py定义了测试函数
-tool.py定义了一些振动信号读取和处理的函数
-改好路径后运行main.py可对1dCNN进行训练，运行vibpredict.py对1dCNN进行测试
-在vibmodel2.py中更改train和test的值为True或False，并运行，实现对2dCNN模型进行训练和测试
-2dCNN模型的训练在验证集上震荡很大
+"vibmodel2.py" defines 2d cnn model: ModelTest2_4_Res
+"vibmodel.py" defines 1d cnn model: ModelTest4_plus
+"vibdataset.py" is used to load and process 1d vibration signal
+"vibdataset2.py" is used to load, process 1d vibration signals and then transform them into 2d spectrograms.
+use "vibtrain.py" to train the model
+use "vibpredict.py" to test the model
